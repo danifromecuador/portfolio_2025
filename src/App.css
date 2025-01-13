@@ -2,6 +2,7 @@
   border: 1px solid red;
   width: 95%;
   height: 98%;
+  overflow-y: auto;
 }
 
 li {
@@ -14,4 +15,13 @@ a {
 
 a:visited {
   color: inherit;
+}
+
+/* MAIN COMPONENTS */
+.home,
+.projects,
+.about,
+.contact {
+  height: 700px;
+  border: 1px solid blue;
 }

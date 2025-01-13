@@ -2,7 +2,7 @@ import './Projects.css'
 
 export const Projects = () => {
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
       Projects Component
     </div>
   )

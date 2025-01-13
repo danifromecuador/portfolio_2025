@@ -33,3 +33,14 @@ a:visited {
   height: 700px;
   border: 1px solid blue;
 }
+
+/* DESKTOP CONFIGURATION */
+@media screen and (min-width: 888px) {
+  .app .header .mobile {
+    display: none;
+  }
+
+  .app .header .desktop {
+    display: block;
+  }
+}

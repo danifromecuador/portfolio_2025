@@ -1,6 +1,7 @@
 .header {
   height: 8%;
   width: 100%;
+  background-color: rgb(26, 26, 26);
 }
 
 .header ul {
@@ -12,6 +13,7 @@
 
 .header li {
   height: 100%;
+  width: 15%;
 }
 
 .header a {
@@ -19,11 +21,17 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .header .desktop,
 .header .mobile {
-  height: 100%;
-  width: 50%;
+  height: 50%;
+  font-size: 40px;
+}
+
+.header .desktop:hover,
+.header .mobile:hover {
+  color: green;
 }
 
 .header .desktop {

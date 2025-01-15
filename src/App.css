@@ -13,7 +13,6 @@ a:visited {
 
 /* MAIN COMPONENTS */
 .app {
-  border: 1px solid red;
   width: 98%;
   height: 98%;
 }
@@ -31,7 +30,6 @@ a:visited {
 .contact {
   /* TODO change fixed height */
   height: 700px;
-  border: 1px solid blue;
 }
 
 /* DESKTOP CONFIGURATION */
@@ -41,6 +39,8 @@ a:visited {
   }
 
   .app .header .desktop {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -27,6 +27,7 @@
 .header .mobile {
   height: 50%;
   font-size: 40px;
+  color: bisque;
 }
 
 .header .desktop:hover,

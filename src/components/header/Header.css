@@ -1,0 +1,40 @@
+.header {
+  height: 8%;
+  width: 100%;
+  background-color: rgb(26, 26, 26);
+}
+
+.header ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header li {
+  height: 100%;
+  width: 15%;
+}
+
+.header a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .desktop,
+.header .mobile {
+  height: 50%;
+  font-size: 40px;
+  color: bisque;
+}
+
+.header .desktop:hover,
+.header .mobile:hover {
+  color: green;
+}
+
+.header .desktop {
+  display: none;
+}

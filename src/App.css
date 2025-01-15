@@ -1,5 +1,46 @@
+/* GENERAL STYLES */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/* MAIN COMPONENTS */
 .app {
-  border: 1px solid red;
-  width: 95%;
+  width: 98%;
   height: 98%;
+}
+
+.main-section {
+  width: 100%;
+  /* 100% - .header height */
+  height: 92%;
+  overflow-y: auto;
+}
+
+.home,
+.projects,
+.about,
+.contact {
+  /* TODO change fixed height */
+  height: 700px;
+}
+
+/* DESKTOP CONFIGURATION */
+@media screen and (min-width: 888px) {
+  .app .header .mobile {
+    display: none;
+  }
+
+  .app .header .desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

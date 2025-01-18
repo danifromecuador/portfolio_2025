@@ -3,6 +3,8 @@ import { SocialIcons } from '../shared/SocialIcons'
 import { FaLaptopCode } from "react-icons/fa";
 import { Testimonial } from './Testimonial';
 import { testimonialData } from './testimonialData';
+import { PersonalInterests } from './PersonalInterests';
+import {personalInterests} from './personalInterests'
 
 export const Home = () => {
   return (
@@ -18,12 +20,14 @@ export const Home = () => {
       </div>
       <div className='testimonials'>
         <h2>Co-Workers Testimonials</h2>
-        <ul>{testimonialData.map(t => (<Testimonial testimonial={t} key={t.id}/>))}</ul>
+        <ul>{testimonialData.map(t => <Testimonial data={t} key={t.id} />)}</ul>
       </div>
       <div className="personal-interests">
         <h2>Personal Interests</h2>
         <ul>
-
+          {
+            personalInterests.map(pi=><PersonalInterests data={pi} key={pi.id}  />)
+          }
         </ul>
       </div>
     </div>

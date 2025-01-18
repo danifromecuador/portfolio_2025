@@ -1,13 +1,10 @@
 import './PersonalInterests.css'
 
-export const PersonalInterests = () => {
+export const PersonalInterests = ({ data }) => {
   return (
     <div className='personal-interests'>
-      <img src="" alt="" />
-      <div>
-        <h3>Reading books</h3>
-        <p>I've read tons of books in spanish and recently I started reading in English</p>
-      </div>
+      title: {data.title}
+      text: {data.text}
     </div>
   )
 }

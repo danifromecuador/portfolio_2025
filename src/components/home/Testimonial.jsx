@@ -1,10 +1,10 @@
 import './Testimonial.css'
-import { TestimonialData } from './testimonialData'
 
-export const Testimonial = ({name}) => {
+export const Testimonial = ({ testimonial }) => {
   return (
-    <div className='testimonial'>
-      name: {TestimonialData[1].name}
-    </div>
+    <li className='testimonial'>
+      text: {testimonial.text}
+      name: {testimonial.name}
+    </li>
   )
 }

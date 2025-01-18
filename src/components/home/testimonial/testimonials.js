@@ -1,4 +1,4 @@
-export const testimonialData = [
+export const testimonials = [
   {
     id: 0,
     text: "I recommend Dani because...",

@@ -1,10 +1,10 @@
 import './Home.css'
 import { SocialIcons } from '../shared/SocialIcons'
 import { FaLaptopCode } from "react-icons/fa";
-import { Testimonial } from './Testimonial';
-import { testimonialData } from './testimonialData';
-import { PersonalInterests } from './PersonalInterests';
-import {personalInterests} from './personalInterests'
+import { Testimonial } from './testimonial/Testimonial';
+import { testimonials } from './testimonial/testimonials';
+import { Interest } from './interest/Interest';
+import { interests } from './interest/interests'
 
 export const Home = () => {
   return (
@@ -20,15 +20,11 @@ export const Home = () => {
       </div>
       <div className='testimonials'>
         <h2>Co-Workers Testimonials</h2>
-        <ul>{testimonialData.map(t => <Testimonial data={t} key={t.id} />)}</ul>
+        <ul>{testimonials.map(testimonial => <Testimonial data={testimonial} key={testimonial.id} />)}</ul>
       </div>
-      <div className="personal-interests">
+      <div className="interests">
         <h2>Personal Interests</h2>
-        <ul>
-          {
-            personalInterests.map(pi=><PersonalInterests data={pi} key={pi.id}  />)
-          }
-        </ul>
+        <ul>{interests.map(interest => <Interest data={interest} key={interest.id} />)}</ul>
       </div>
     </div>
   )

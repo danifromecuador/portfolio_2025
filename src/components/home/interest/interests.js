@@ -1,4 +1,4 @@
-export const personalInterests = [
+export const interests = [
   {
     id: 0,
     imageURL: "",

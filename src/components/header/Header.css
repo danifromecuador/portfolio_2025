@@ -22,12 +22,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .header .desktop,
 .header .mobile {
   height: 50%;
   font-size: 40px;
-  color: bisque;
 }
 
 .header .desktop:hover,

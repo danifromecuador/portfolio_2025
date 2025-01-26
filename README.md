@@ -19,15 +19,8 @@
 - [📝 License](#license)
 
 
-# 📖 PlannyWise App <a name="about-project"></a>
-
-**PlannyWise** is a webpage to help you to achieve your goals and overcome procrastination, using SMART goals and a Pomodoro downcount. This webpage has 3 sections:
-### Todo:
-Where you can put your daily, weekly and monthly goals, remember to use SMART goals and Kaizen approach.
-### Doing:
-This is the countdown with an alarm that will sound after 15 minutes, also this section contains a motivational phrase that can be updated when you click on it.
-### Done:
-After 15 minutes of intense focus on your current activity and when the alarm sounds, you can save the activity that you were working on, this section also contains a worked hours counter, for the current day, for the last 7 days and last 30 days. 
+# 📖 React Portfolio Project <a name="about-project"></a>
+My personal portfolio, created with React, Zustand and TailWind.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -42,9 +35,9 @@ After 15 minutes of intense focus on your current activity and when the alarm so
 
 ### Key Features <a name="key-features"></a>
 
-- **You can see their long, mid, and short goals and focus just in the present day**
-- **Using the Pomodoro method you can be productive without burning**
-- **You can see the real time that you spend working daily**
+- **Functional components can be re used anywhere on the project**
+- **Using Zustand as a global state manager instead of Redux** 
+- **Using Tailwind for styling** 
 
 ### Resources <a name="resources"></a>
 <ul>

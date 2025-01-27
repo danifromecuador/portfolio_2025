@@ -52,7 +52,7 @@ My personal portfolio, created with React, Zustand and TailWind.
 
 
 ## Live Link <a name="live-link"></a>
-<a href="https://plannywise.onrender.com/">plannywise.onrender.com</a>
+<a href="">Under Construction</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -72,7 +72,6 @@ Install Git and Node. If you have Linux or Mac, you can follow this [tutorial](h
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
   git clone git@github.com:danifromecuador/plannywise.git
   cd plannywise
 ```
@@ -84,8 +83,8 @@ To run the project, execute the following commands, press enter after each line:
 Maybe you'll need to change the DB name and password to your own. (config/database.yml)
 
 ```sh
-  npm install
-  npm run dev
+  bun install
+  bun run dev
 ```
 
 
